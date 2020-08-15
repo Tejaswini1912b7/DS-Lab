@@ -1,0 +1,46 @@
+﻿/* C Program to implement Linear Search Algorithm recursively */
+#include <stdio.h>
+int Rec_lin_search(int arr[], int value, int index, int total)
+{
+    int pos = 0;
+    if(index >= total)
+    {
+        return 0;
+    }
+    else if (arr[index] == value)
+    {
+        pos = index;
+        return pos;
+    }
+    else
+    {
+        return Rec_lin_search(arr, value, index+1, total);
+    }
+    return pos;
+}
+ 
+int main()
+{
+    int total, index, value, pos, arr[100];
+    printf("Enter the total elements in the array  ");
+    scanf("%d", &total);
+    printf("Enter the array elements\n");
+    for (index = 0; index < total; index++)
+    {
+        scanf("%d", &arr[index]);
+    }
+    printf("Enter the element to search  ");
+    scanf("%d", &value);
+    pos =  Rec_lin_search(arr, value, 0, total);
+    if (pos != 0)
+    {
+        printf("Element is found at pos %d ", pos);
+    }
+    else
+    {
+        printf("Element not found");
+    }
+    return 0;
+}
+             
+              
