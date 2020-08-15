@@ -21,8 +21,7 @@ mid = (low_bound+up_bound) / 2
 OUTPUT:-
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
-
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
 
 
 
@@ -42,7 +41,7 @@ B)Binary Search with Recursion - Procedure
 OUTPUT:-
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
 
 
 
