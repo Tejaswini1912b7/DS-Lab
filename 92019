@@ -1,0 +1,33 @@
+﻿/* Binary Search Program using Iteration(without recursion). */
+#include <stdio.h>
+int iter_binary_search(int arr[], int, int);
+void main()
+{
+    int arr[10] = {3, 12, 29, 33, 36, 54, 60, 61, 92, 98};
+    int key, index;
+    printf("Enter the target key to be searched:\n");
+    scanf("%d",&key);
+    index = iter_binary_search(arr, 12, key);
+    if(index != -1)
+        printf("%d is found at %d", key, index);
+    else
+        printf("%d is not found ", key);
+}
+int iter_binary_search(int arr[], int n, int target)
+{
+    int low, high, mid;
+    low = 0;
+    high = n;
+    while(high >= low)
+    {
+        mid = (low + high) / 2;
+        if(arr[mid] == target)
+              return mid;
+        if(arr[mid] > target)
+              high = mid - 1;
+        else
+              low = mid + 1;
+    }
+    return -1;
+}
+
