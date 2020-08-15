@@ -1,0 +1,51 @@
+﻿/* Binary Search Program using Recursion. */
+#include <stdio.h>
+int rec_binary_search(int arr[10], int key, int start, int end);
+int main()
+{
+    int arr[10] = {3, 12, 29, 33, 36, 54, 60, 61, 92, 98};
+    int key, index;
+    printf("Enter the target key to be searched:\n");
+    scanf("%d",&key);
+    index = rec_binary_search(arr, key, 0, 9);
+    if(index < 0)
+        printf("%d is not found ", key);
+    else
+        printf("%d is index of target key", index);
+    return 0;
+}
+int rec_binary_search(int arr[10], int target, int low_pos, int int high_pos)
+{
+    int mid_pos;
+    if(low_pos > high_pos)
+    {
+        //printf("Target key not found\n");
+        return -1;
+    }
+    else
+    {
+        if(low_pos <= high_pos)
+        {
+            mid_pos = (low_pos + high_pos) / 2;
+            if(target == arr[mid_pos])
+            {
+                //printf("Target key found at %d\n", mid_pos);
+                return mid_pos;
+            }
+            else if(target <= arr[mid_pos])
+            {
+                high_pos = mid_pos - 1;
+                return rec_binary_search(arr, target, low_pos, high_pos);
+            }
+            else
+            {
+                low_pos = mid_pos + 1;
+                return rec_binary_search(arr, target, low_pos, high_pos);
+            }
+        }
+    }
+}
+
+
+
+
