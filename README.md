@@ -19,7 +19,7 @@ mid = (low_bound+up_bound) / 2
 9)Hence the Non-Recursive Binary Search is finished.
 
 OUTPUT:-
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
 
 B)Binary Search with Recursion - Procedure
 1)Initialise the array with 10 elements,Elements should be sorted.
@@ -35,7 +35,7 @@ B)Binary Search with Recursion - Procedure
 11)Hence in Recursive Binary Search the same process continues till the Target_key is found.
 
 OUTPUT:-
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
 
 LINEAR SEARCH - Linear Search is the comparision of Target_Key with every key going through the entire array of the algorithm.This search works for both sorted and unsorted arrays.
 
