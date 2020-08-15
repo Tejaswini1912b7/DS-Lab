@@ -53,7 +53,7 @@ A)Linear Search Algorithm with Recursion - Procedure
 
 OUTPUT:-
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%2036).png
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%20100).png
 
 B)Linear Search Algorithm without Recursion - Procedure
 1)First declare an Array with integers and initialize it with values(i.e.elements).
