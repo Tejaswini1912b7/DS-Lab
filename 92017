@@ -1,0 +1,26 @@
+// Linear Search Program without Recursion.
+#include <stdio.h>
+int linear_search(int array[],int key, int index);
+int main()
+{
+    int array[]={12,61,33,92,36,3,29,98,54,60};
+    int key, index;
+    printf("Enter a target key to be searched: ");
+    scanf("%d",&key);
+    index = linear_search(array, 12, key);
+    if(index != -1)
+        printf("%d is found at %d", key, index);
+    else
+        printf("%d is not found", key);
+    return 0;
+}
+int linear_search(int x[], int last, int target)
+{
+    int index;
+    for(index = 0;index < last; index++)
+        if(x[index] == target)
+            return index;
+    return -1;
+}
+
+
