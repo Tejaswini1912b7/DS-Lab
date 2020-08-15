@@ -66,7 +66,7 @@ B)Linear Search Algorithm without Recursion - Procedure
 
 OUTPUT:-
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%2036).png
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%20100).png
 
 
 
