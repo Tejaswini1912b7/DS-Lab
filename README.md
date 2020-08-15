@@ -18,11 +18,11 @@ mid = (low_bound+up_bound) / 2
 8)The same process is continued until the target is found.Each Iteration eliminates half of the remaining elements.This is faster than the Linear Search.
 9)Hence the Non-Recursive Binary Search is finished.
 
-OUTPUT:-
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
-
+####OUTPUT:-
+1) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
+2) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
+3) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
+4) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%20100).png
 
 
 B)Binary Search with Recursion - Procedure
@@ -38,11 +38,11 @@ B)Binary Search with Recursion - Procedure
 10)Else when Target is greater than the array's Mid_Pos the algorith starts searcing on the other half. Here LOW-BOUND = MID_BOUND + 1(i.e.UP_BOUND will be the same),
 11)Hence in Recursive Binary Search the same process continues till the Target_key is found.
 
-OUTPUT:-
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
-
+####OUTPUT:-
+1) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output(key%20%3D12).png
+2) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2092).png
+3) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%2033).png
+4) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/binary_search_output%20(key%20%3D%20100).png
 
 
 
@@ -60,9 +60,9 @@ A)Linear Search Algorithm with Recursion - Procedure
 9)Else when Target_Value is not in the array values."The Element is not Found" gets printed. Hence the search is unsuccessful.
 10)Hence this is the Recursive Linear Search Algorithm.
 
-OUTPUT:-
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%2036).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%20100).png
+####OUTPUT:-
+1) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%2036).png
+2) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%20100).png
 
 B)Linear Search Algorithm without Recursion - Procedure
 1)First declare an Array with integers and initialize it with values(i.e.elements).
@@ -73,14 +73,8 @@ B)Linear Search Algorithm without Recursion - Procedure
 6)The If statement inside the Loop returns the position if the Target_Key is found.
 7)Otherwise the Algorithm returns -1 indicating to thecalling routine that the Target_Key is not found.
 
-OUTPUT:-
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%2036).png
-https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%20100).png
+####OUTPUT:-
+1) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%2036).png
+2) https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%20100).png
 
-
-
-####OUTPUT
-
-
-
-
+                     ----- THE END -----
