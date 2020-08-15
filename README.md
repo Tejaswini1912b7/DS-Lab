@@ -65,7 +65,7 @@ B)Linear Search Algorithm without Recursion - Procedure
 7)Otherwise the Algorithm returns -1 indicating to thecalling routine that the Target_Key is not found.
 
 OUTPUT:-
-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/non_rec_lin_search_output(key%20%3D%2036).png
 
 
 
