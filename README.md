@@ -52,6 +52,7 @@ A)Linear Search Algorithm with Recursion - Procedure
 10)Hence this is the Recursive Linear Search Algorithm.
 
 OUTPUT:-
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/rec_lin_search_output(key%20%3D%2036).png
 
 
 B)Linear Search Algorithm without Recursion - Procedure
