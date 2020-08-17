@@ -15,4 +15,4 @@ Bubble Sort- Bubble Sort is the simplest sorting algorithm that works by repeate
 8)Hence the Bubble Sort program is executed successfully.
 
 ####OUTPUT:-
-Bubble_Sort_Output.png
+https://github.com/Tejaswini1912b7/DS-Lab/blob/master/EXPERIMENT%202/Bubble_Sort_Output.png
