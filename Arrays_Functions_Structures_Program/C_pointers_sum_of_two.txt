@@ -1,0 +1,11 @@
+// Write a C program to add two numbers using pointers
+#include<stdio.h>
+int x=10, y=20;
+int main()
+{
+    int *p, *q;
+    p = &x;
+    q = &y;
+    printf("When x=10,y=20:\nsum of x and y is:%d", *p + *q);
+    return 0;
+}

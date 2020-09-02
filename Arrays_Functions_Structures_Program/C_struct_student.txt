@@ -1,0 +1,19 @@
+// C Program to create a structure named Student having members as name (char array), roll no(integer)
+#include<stdio.h>
+typedef struct student
+{
+    char name[20];
+    int roll_no;
+}s1;
+int main()
+{
+    struct student *s_ptr,s1;
+    s_ptr = &s1;
+    printf("Enter the name of the student: \n");
+    scanf("%s", &s_ptr -> name);
+    printf("Enter the student roll number: \n");
+    scanf("%d", &s_ptr -> roll_no);
+    printf("Name of the student: %s\n",s_ptr -> name);
+    printf("Roll Number of the student is: %d\n", s_ptr -> roll_no);
+    return 0;
+}

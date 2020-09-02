@@ -1,0 +1,35 @@
+// Write a program in C to get smallest element of an array using the function.
+
+#include<stdio.h>
+
+int find_min_element(int []);
+int n;
+
+int main()
+{
+    int arr1[10],minelem,i;
+       printf(" Input the number of elements to be stored in the array :");
+       scanf("%d",&n);
+       printf(" Input %d elements in the array :\n",n);
+       for(i=0;i<n;i++)
+        {
+	      printf(" element - %d : ",i);
+	      scanf("%d",&arr1[i]);
+	    }
+    minelem=find_min_element(arr1);
+
+    printf(" The smallest element in the array is : %d\n\n",minelem);
+    return 0;
+}
+int find_min_element(int arr1[])
+{
+    int i=1,minelem;
+    minelem=arr1[0];
+    while(i < n)
+	{
+      if(minelem>arr1[i])
+           minelem=arr1[i];
+      i++;
+    }
+    return minelem;
+}
