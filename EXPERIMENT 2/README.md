@@ -39,4 +39,26 @@ Selection Sort: The selection sort algorithm sorts an array by repeatedly findin
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/EXPERIMENT%202/C_selectionSort_12b7.png
 
 iii) INSERTION SORT
-Definition:
+## Definition: Insertion Sort is a sorting algorithm where the array is sorted by taking one element at a time. The principle behind insertion sort is to take one element, iterate through the sorted array & find its correct position in the sorted array.
+
+###Step by step Procedure of the experiment:
+1) The key step of an insertion sort algorithm involves the insertion of an item into a sorted sequence. There are two aspects to an insertion - i) Finding the correct position in the sequence at which the new element could be inserted and ii) Moving all the elements over to make room for the new one.
+2) The Array to be sorted is declared and initialized.
+3) In main function we print the elements of the array before selection sort.
+4) In the insertion sort algorithm the following procedure is continued until we get the required sorted array.
+Algorithm for Insertion Sort:
+Step 1 − If the element is the first one, it is already sorted.
+Step 2 – Move to next element.
+Step 3 − Compare the current element with all elements in the sorted array.
+Step 4 – If the element in the sorted array is smaller than the current element, iterate to the next element. Otherwise, shift all the greater element in the array by one position towards the right.
+Step 5 − Insert the value at the correct position.
+Step 6 − Repeat until the complete list is sorted.
+5) In the insertion sort, Outer for loop (n-1) passes to the data.The array index starts from 1 to n.
+6) The inner for loop runs backwards from i to find proper position for insertion. Since the list is sorted list up to i, the inner for loop is simply finding a place for the current element to be inserted in the already sorted list. 
+7) The inner for loop operates just the number of times needed to make a slot for the current elementin the already sorted list. In the extreme case, the inner for loop is never operated if the list is already in a sorted order.
+8) Hence, The Insertion Sort Program is executed successfully.
+
+#### OUTPUT:
+
+
+
