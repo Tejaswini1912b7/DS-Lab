@@ -37,3 +37,6 @@ Selection Sort: The selection sort algorithm sorts an array by repeatedly findin
 
 ### OUTPUT:
 https://github.com/Tejaswini1912b7/DS-Lab/blob/master/EXPERIMENT%202/C_selectionSort_12b7.png
+
+iii) INSERTION SORT
+Definition:
